@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigetion"
+    app:startDestination="@id/onBordingScreenFragment">
+    <fragment
+        android:id="@+id/onBordingScreenFragment"
+        android:name="com.example.noteapp.presentetion.onBordingScreenFragment"
+        android:label="fragment_on_bording_screen"
+        tools:layout="@layout/fragment_on_bording_screen" >
+        <action
+            android:id="@+id/action_onBordingScreenFragment_to_main_screen_Fragment"
+            app:destination="@id/main_screen_Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/main_screen_Fragment"
+        android:name="com.example.noteapp.presentetion.main_screen.main_screen_Fragment"
+        android:label="fragment_main_screen_"
+        tools:layout="@layout/fragment_main_screen_" />
+</navigation>

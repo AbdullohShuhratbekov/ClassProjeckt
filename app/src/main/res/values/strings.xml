@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Note App</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="onbording_title">Sweets Ordering App</string>
+    <string name="onbording_daserd">Order your favorite desert n\
+
+</string>
+
+     //Main Scrreen
+
+    <string name="All">All</string>
+    <string name="Seets">Seets</string>
+    <string name="Cakes">Cakes</string>
+    <string name="Candy">Candy</string>
+</resources>
